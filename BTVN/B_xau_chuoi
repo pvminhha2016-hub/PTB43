@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char s[20];
+
+    // Nhập xâu
+    gets(s);
+
+    // In theo định dạng yêu cầu
+    printf("Ngay %.2s thang %.2s nam %.4s", s, s + 3, s + 6);
+
+    return 0;
+}
+
+
+// main la hamw
+// char là kiểu dữ liệu dùng để lưu 1 ký tự trong ngôn ngữ C
