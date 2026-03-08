@@ -16,10 +16,9 @@ else:
     so_ngay = 0
 
 # Kiểm tra ngày hợp lệ
-if so_ngay == 0:
-    print("Tháng không hợp lệ")
-elif ngay < 1 or ngay > so_ngay:
-    print("Ngày không hợp lệ")
-else:
-    print("Ngày hợp lệ")
-    print("Tháng", thang, "năm", nam, "có", so_ngay, "ngày")
+if so_ngay == 29:
+    print("YES")
+else :
+    print("NO")
+
+   
